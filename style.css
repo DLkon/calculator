@@ -23,12 +23,6 @@
      border-radius: 10px;
  }
 
-
- #display { 
-     height: 160px;
-     color: #fff;
- }
-
  #grid { 
      display: grid;
      grid-template-columns: repeat(4, 40px);
@@ -86,6 +80,8 @@ button:hover {
      margin-right: 10px;
      margin-bottom: 8px;
      border-bottom: solid black;
+     height: 160px;
+     color: #fff;
  }
 
  

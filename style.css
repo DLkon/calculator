@@ -1,0 +1,92 @@
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+ }
+
+ body { 
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+ }
+
+ #container { 
+    display: flex;
+    flex-direction: column;
+     height: 436px;
+     width:  270px;
+     background: #101820;
+     border-radius: 10px;
+ }
+
+
+ #display { 
+     height: 160px;
+     color: #fff;
+ }
+
+ #grid { 
+     display: grid;
+     grid-template-columns: repeat(4, 40px);
+     grid-template-rows: repeat(5, 40px);
+     column-gap: 22px;
+     row-gap: 6px;
+     justify-content: center;
+ }
+
+ 
+
+ #equal { 
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    width: 102px;
+    height: 40px;
+    background-color: #872688;
+     
+ }
+
+ #x { 
+     grid-column-start: 4;
+     grid-column-end: 5;
+     grid-row-start: 3;
+     grid-row-end: 5;
+     background-color: #872688;
+
+ }
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 36px;
+    border-radius: 10px;
+    background-color: #303A3E;
+    color: #F8F8FF;
+    cursor: pointer;
+}
+
+button:hover { 
+    transform: scale(1.1);
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.4)
+
+
+}
+
+ #display {
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+     font-size: 36px;
+     margin-right: 10px;
+     margin-bottom: 8px;
+     border-bottom: solid black;
+ }
+
+ 
+

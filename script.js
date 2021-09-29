@@ -20,7 +20,7 @@ else if ( sign == "-") {
 else if ( sign == "/" ) { 
 
     if ( num2 == 0) { 
-        answer = "eu te amo Mariana";
+        answer = "seriously?";
         display.textContent = answer;
     }
 
